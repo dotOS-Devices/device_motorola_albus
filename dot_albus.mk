@@ -22,17 +22,12 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := albus
-PRODUCT_NAME := dot_albus
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
+PRODUCT_NAME := dot_albus
+PRODUCT_DEVICE := albus
+PRODUCT_MODEL := Moto Z2 Play
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
-
+# Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Moto Z2 Play" \
     PRIVATE_BUILD_DESC="albus-user 9 PPS29.133-30 ab8b4 release-keys"
-
-# FINGERPRINT
-BUILD_FINGERPRINT := google/walleye/walleye:11/RPB3.200720.005/6705141:user/release-keys 
-VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:11/RPB3.200720.005/6705141:user/release-keys
