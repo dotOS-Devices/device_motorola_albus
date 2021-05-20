@@ -1,13 +1,13 @@
 [
   {
-    "repository": "device_motorola_msm8953-common",
+    "repository": "device_motorola_albus-common",
     "target_path": "device/motorola/msm8953-common",
-    "branch": "eleven"
+    "branch": "dot11"
   },
   {
-    "remote": "pixel-devices-blobs",
+    "remote": "dotOS-Devices",
     "repository": "vendor_motorola_albus",
     "target_path": "vendor/motorola/albus",
-    "branch": "eleven"
+    "branch": "dot11"
   }
 ]
