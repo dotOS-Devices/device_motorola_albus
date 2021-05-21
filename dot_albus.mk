@@ -18,15 +18,8 @@ $(call inherit-product, device/motorola/albus/device.mk)
 
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
-
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# GApps
-WITH_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := motorola
