@@ -9,5 +9,11 @@
     "repository": "vendor_motorola_albus",
     "target_path": "vendor/motorola/albus",
     "branch": "dot11"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "HeltonMax/packages_apps_CameraGo",
+    "target_path" : "packages/apps/CameraGo",
+    "branch"      : "eleven"
   }
 ]
