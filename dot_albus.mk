@@ -34,11 +34,11 @@ PRODUCT_MODEL := Moto Z2 Play
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-# Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="albus" \
-    PRODUCT_NAME="albus" \
-    PRIVATE_BUILD_DESC="albus-user 9 PPS29.133-30 ab8b4 release-keys"
+    PRIVATE_BUILD_DESC="albus_retail-user 9 PPS29.133-30 ab8b4 release-keys" \
+    PRODUCT_NAME="Moto Z2 Play"
 
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/crosshatch/crosshatch:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+BUILD_FINGERPRINT := "motorola/albus_retail/albus:9/PPS29.133-30/ab8b4:user/release-keys"
+
+PRODUCT_OVERRIDE_INFO := true
+PRODUCT_OVERRIDE_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
